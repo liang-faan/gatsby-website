@@ -13,5 +13,11 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "test-gatsby-website-bucket",
+      },
+    },
   ],
-}
+};
